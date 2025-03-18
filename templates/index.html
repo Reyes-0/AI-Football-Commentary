@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA AI Commentary</title>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <link rel="stylesheet" href="{{ url_for('../static/', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>FIFA AI Commentary</h2>
+        <form method="post" enctype="multipart/form-data">
+            <div class="input-group">
+                <div class="file-input-container">
+                    <input type="file" name="file" id="fileInput">
+                    <label for="fileInput" class="custom-file-label">Choose file</label>
+                </div>
+                <p id="path-name">Please Select a file</p>
+            </div>
+            <button type="submit">Generate</button>
+        </form>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+Flask==2.3.2
+flask-ngrok==0.0.25
+pyngrok==7.0.0
+openai==0.28.0
+inference-sdk==0.9.12
+inference == 0.42.1
+supervision==0.25.1
+moviepy==1.0.3
+numpy==1.26.4
+opencv-python==4.8.0.74
+requests==2.31.0
+python-dotenv==1.0.0
+rich==13.7.0
+pydantic==2.5.3
+requests_toolbelt==1.0.0
+redis==5.0.1
+pybase64==1.3.1
+scikit-image==0.22.0
+fastapi
+apscheduler
+onnxruntime
+pip list | grep -E "inference|supervision"

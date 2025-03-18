@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing</title>
+    <link rel="stylesheet" href="{{ url_for('./static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Processing your video...</h2>
+        <p id="status">Please wait...</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-GqYP336cdM?si=fEBjvPJkv_RBQByQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='processing.js') }}"></script>
+</body>
+</html>

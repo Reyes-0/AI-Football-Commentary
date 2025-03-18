@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background: linear-gradient(135deg, #009e60 0%, #0051ba 100%);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #a2d2ff;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label, #status, .header {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#path-name, #language-select, #download-btn {
+    padding: 12px;
+    border: 2px solid #0051ba;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    width: auto;
+}
+
+#choose-file-btn, #download-btn {
+    padding: 12px 25px;
+    background-color: #0063cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#choose-file-btn:hover, #download-btn:hover {
+    background-color: #004c99;
+}
+
+#download-btn:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#looping-video {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#message-container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #0063cc;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: auto;
+    margin: 20px auto;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #004c99;
+}
+
+button:disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
